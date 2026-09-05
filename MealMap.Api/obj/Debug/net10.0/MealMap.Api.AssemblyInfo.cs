@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MealMap.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+247935d79d034f30cb73fa8d466b0e3578528039")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c1adbc3f8a87e170e6078d77e29d7946399cafc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MealMap.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MealMap.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
