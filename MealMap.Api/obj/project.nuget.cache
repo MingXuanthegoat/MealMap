@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "57M53aiFO4E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mingx\\OneDrive\\Desktop\\MealMap\\MealMap.Api\\MealMap.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mingx\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\mingx\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
