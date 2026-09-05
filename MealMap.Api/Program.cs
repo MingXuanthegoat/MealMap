@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MealMap.Api.Data;
+using Scalar.AspNetCore;
 
 
 
@@ -14,12 +15,16 @@ builder.Services.AddDbContext<MealMapDbContext>(options =>
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+builder.Services.AddControllers(); // For controller support
 var app = builder.Build();
+app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
+
 }
 
 app.UseHttpsRedirection();
