@@ -1,6 +1,1 @@
 @MealMap.Api_HostAddress = http://localhost:5193
-
-GET {{MealMap.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
