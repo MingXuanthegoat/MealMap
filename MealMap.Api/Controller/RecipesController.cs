@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MealMap.Api.Data;
 using MealMap.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MealMap.Api.Controllers
 {   
@@ -9,6 +10,8 @@ namespace MealMap.Api.Controllers
     // Makes every endpoint live under /api/recipes
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
+
     public class RecipesController : ControllerBase
     {
         private readonly MealMapDbContext _context;
